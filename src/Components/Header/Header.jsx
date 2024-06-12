@@ -12,6 +12,7 @@ function Header () {
     <MenuLink linkname="Conact" url="home"/>
     <MenuLink linkname="Hiii" url="home"/>
     <MenuLink linkname="Byee" url="home"/>
+    <MenuLink linkname="SSS" url="home"/>
 
     <img src="vite.svg" alt="" />
     <img src={Logoimage} alt="" />
