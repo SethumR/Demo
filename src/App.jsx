@@ -1,30 +1,28 @@
-import Body from "./Components/Bodycontent/Body"
-import Header from "./Components/Header/Header"
+// App.js
+import React from 'react';
+import './App.css';
 
 function App() {
   return (
-    <>
-    <Header/><br/>
-    <Body><br/>
-        <button>Click Here</button>
-    </Body>
-
-    <Body>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Aliquam odio magnam consequatur dolores temporibus vel veniam quasi 
-           nesciunt doloremque quidem! Voluptatem et at reiciendis. Esse rerum quos dignissimos voluptate quas.</p>
-
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis amet, nobis totam aliquam voluptatem, velit atque, 
-           tempora deleniti ea ducimus ipsa nesciunt ut fuga ullam numquam excepturi. Corporis, esse consequatur.
-
-           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ullam et asperiores, unde, officiis labore mollitia nam nobis 
-           corrupti similique explicabo provident recusandae qui saepe repellat facere delectus non. Doloremque?
-
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas commodi consequatur consequuntur quis quos fuga, aut sunt, autem sapiente quo similique eligendi, hic delectus expedita illum quaerat nisi ipsum.
-    </Body>
-
-    </>
-  )
+    <div className="App">
+      <nav className="navbar">
+        <ul>
+          <li><a href="#home" className="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <header className="header">
+        <h1>Nazhim Kalam</h1>
+        <p>Software Engineer | Instructor | Content Writer | Entrepreneur</p>
+        <button className="resume-button">My Resume</button>
+      </header>
+    </div>
+  );
 }
 
-export default App
+export default App;
